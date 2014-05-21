@@ -75,7 +75,8 @@ PRODUCT_PACKAGES += librpc
 PRODUCT_PACKAGES += \
 	copybit.msm7x30 \
 	gralloc.msm7x30 \
-	hwcomposer.msm7x30
+	hwcomposer.msm7x30 \
+	libgenlock
 
 # Wifi
 PRODUCT_PACKAGES += \
