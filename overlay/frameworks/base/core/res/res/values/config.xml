@@ -220,9 +220,6 @@
          rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
     <string name="config_wifi_tcp_buffers" translatable="false">8192,87380,524288,8192,87380,524288</string>
 
-    <!-- Is the device LTE capable -->
-    <!--<bool name="config_lte_capable">false</bool>-->
-
     <!-- Fix old GPS HALs -->
     <!--<bool name="config_legacyGpsHAL">true</bool>-->
 
