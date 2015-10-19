@@ -6,6 +6,10 @@ on early-init
     mount debugfs debugfs /sys/kernel/debug
     chmod 666 /proc/cmdline
 
+on init
+    # Preload the BoringSSL compat symbols wrapper
+    export LD_PRELOAD "/system/lib/libboringssl-compat.so"
+
 on fs
     mount_all /fstab.htc7x30
     swapon_all /fstab.htc7x30
