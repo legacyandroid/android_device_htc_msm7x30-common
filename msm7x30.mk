@@ -71,6 +71,10 @@ PRODUCT_PACKAGES += \
 # GPS
 PRODUCT_PACKAGES += librpc
 
+# Adreno
+PRODUCT_PACKAGES += \
+    libstlport
+
 # Video
 PRODUCT_PACKAGES += \
 	copybit.msm7x30 \
