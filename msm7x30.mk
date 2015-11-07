@@ -115,8 +115,7 @@ PRODUCT_PACKAGES += DeviceSettings
 
 # No watchdog for dex2oat
 PRODUCT_PROPERTY_OVERRIDES += \
-	dalvik.vm.dex2oat-swap=false \
-	dalvik.vm.dex2oat-flags=--no-watch-dog
+	dalvik.vm.dex2oat-swap=false
 
 # For applications to determine if they should turn off specific memory-intensive
 # features that work poorly on low-memory devices.
