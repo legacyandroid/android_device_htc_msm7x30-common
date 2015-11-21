@@ -119,9 +119,6 @@ PRODUCT_PACKAGES += com.android.future.usb.accessory
 # Torch
 PRODUCT_PACKAGES += Torch
 
-# Live wallpapers
-PRODUCT_PACKAGES += LiveWallpapersPicker
-
 # DeviceSettings
 PRODUCT_PACKAGES += DeviceSettings
 
