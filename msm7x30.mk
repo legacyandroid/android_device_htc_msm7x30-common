@@ -82,10 +82,6 @@ PRODUCT_PACKAGES += \
 	hwcomposer.msm7x30 \
 	libgenlock
 
-# BoringSSL compat symbols wrapper
-PRODUCT_PACKAGES += \
-    libboringssl-compat
-
 # Wifi
 PRODUCT_PACKAGES += \
 	libnetcmdiface \
