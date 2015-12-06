@@ -25,8 +25,6 @@ $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 # System Properties
 -include $(COMMON_PATH)/system_prop.mk
 
-PRODUCT_BOOT_JARS += qcmediaplayer
-
 # Ramdisk files
 PRODUCT_PACKAGES += \
 	init.htc7x30.rc \
@@ -105,18 +103,12 @@ PRODUCT_PACKAGES += \
 	libOmxVdec \
 	libOmxVenc \
 	libc2dcolorconvert \
-	libdashplayer \
 	libstagefrighthw
-
-PRODUCT_PACKAGES += qcmediaplayer
 
 # IPv6 tethering
 PRODUCT_PACKAGES += \
     ebtables \
     ethertypes
-
-# Misc
-PRODUCT_PACKAGES += com.android.future.usb.accessory
 
 # DeviceSettings
 PRODUCT_PACKAGES += DeviceSettings
