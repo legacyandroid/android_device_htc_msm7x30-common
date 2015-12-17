@@ -58,7 +58,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # UMS
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-	ro.sys.usb.default.config=mtp \
 	ro.vold.umsdirtyratio=20
 
 # Memory
