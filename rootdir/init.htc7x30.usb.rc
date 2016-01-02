@@ -25,6 +25,9 @@ on boot
 on property:persist.sys.usb.config=mtp,adb
     setprop persist.sys.usb.config adb
 
+on property:persist.sys.usb.config=none
+    setprop persist.sys.usb.config adb
+
 # Used to disable USB when switching states
 on property:sys.usb.config=none
     stop adbd
