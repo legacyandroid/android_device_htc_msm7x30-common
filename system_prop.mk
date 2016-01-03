@@ -68,7 +68,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # This is needed for the usb workaround
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-	persist.sys.usb.config=0
+	persist.sys.usb.config=charging
 
 # Misc
 PRODUCT_PROPERTY_OVERRIDES += \

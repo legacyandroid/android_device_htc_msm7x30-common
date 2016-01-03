@@ -28,6 +28,9 @@ on property:persist.sys.usb.config=charging,adb
 on property:persist.sys.usb.config=none
     setprop persist.sys.usb.config charging
 
+on property:sys.usb.config=charging,adb
+    setprop sys.usb.config adb
+
 # Used to disable USB when switching states
 on property:sys.usb.config=none
     stop adbd
