@@ -61,7 +61,8 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
 	camera.msm7x30 \
-	libshim_camera
+	libshim_camera \
+	Snap
 
 # Audio
 PRODUCT_PACKAGES += \
