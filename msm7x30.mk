@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
 	camera.msm7x30 \
 	libshim_camera \
+	libshim_skia \
 	Snap
 
 # Audio
