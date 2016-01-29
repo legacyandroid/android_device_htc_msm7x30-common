@@ -10,8 +10,6 @@ on init
     export LD_SHIM_LIBS "/system/lib/hw/camera.vendor.msm7x30.so|libshim_camera.so:/system/lib/hw/camera.vendor.msm7x30.so|libshim_skia.so"
 
 on fs
-    write /sys/block/zram0/comp_algorithm lz4
-
     mount_all /fstab.htc7x30
     swapon_all /fstab.htc7x30
 
