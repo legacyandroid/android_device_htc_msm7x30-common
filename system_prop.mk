@@ -42,11 +42,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.opengles.version=131072 \
-	debug.composition.type=dyn \
-	debug.sf.hw=1 \
-	debug.egl.hw=1 \
-	debug.egl.recordable.rgba8888=1
+	ro.opengles.version=131072
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
