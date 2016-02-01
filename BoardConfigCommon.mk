@@ -134,3 +134,10 @@ TARGET_RECOVERY_DEVICE_DIRS += device/htc/msm7x30-common
 #    untrusted_app.te \
 #    vold.te \
 #    wpa.te
+
+# Enable dex-preoptimization to speed up first boot sequence
+ifeq ($(HOST_OS),linux)
+ifeq ($(WITH_DEXPREOPT),)
+	WITH_DEXPREOPT := true
+endif
+endif
