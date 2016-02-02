@@ -121,7 +121,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	dalvik.vm.dex2oat-filter=balanced
 	dalvik.vm.dex2oat-swap=false \
 	dalvik.vm.dex2oat-flags=--no-watch-dog \
-	dalvik.vm.image-dex2oat-filter=speed
+	dalvik.vm.image-dex2oat-filter=speed \
+	dalvik.vm.image-dex2oat-flags=--no-watch-dog
 
 # For applications to determine if they should turn off specific memory-intensive
 # features that work poorly on low-memory devices.
