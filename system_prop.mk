@@ -37,7 +37,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # WiFi
 PRODUCT_PROPERTY_OVERRIDES += \
 	wifi.interface=wlan0 \
-	wifi.supplicant_scan_interval=15 \
 	ro.tethering.kb_disconnect=1
 
 # Display
