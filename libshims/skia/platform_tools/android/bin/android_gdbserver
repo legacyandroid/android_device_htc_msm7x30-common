@@ -25,6 +25,7 @@ echo "Copying symbol files"
 SYSTEM_LIBRARY_PATH=/system/lib
 for library_file in \
     libc.so \
+    libc++.so \
     libstdc++.so \
     libm.so \
     liblog.so \
