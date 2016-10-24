@@ -127,9 +127,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.config.low_ram=true \
 	persist.sys.force_highendgfx=true
 
-# Bluetooth
-PRODUCT_PACKAGES += bt_vendor.conf
-
 # Bluetooth/Wifi firmware
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/firmware/bcm4330.hcd:system/vendor/firmware/bcm4330.hcd \
