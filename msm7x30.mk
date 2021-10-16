@@ -16,6 +16,7 @@
 
 $(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
 $(call inherit-product, device/common/gps/gps_eu_supl.mk)
+$(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/go_defaults_512.mk)
 
 # System Properties
 -include $(LOCAL_PATH)/system_prop.mk
